@@ -11,6 +11,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Net.Cache;
+using System.Threading;
 
 namespace SDA_Survey
 {
@@ -24,7 +26,21 @@ namespace SDA_Survey
 
         private void frmSdaSurvey_Load(object sender, EventArgs e)
         {
+            List<User> users = new List<User>();
+            Connection conn = new Connection();
+            users = conn.getAllUsers();
 
+            Console.WriteLine("You have " + users.Count + " users sir");
+
+            for(int a=0;a<users.Count; a++)
+            {
+                Console.WriteLine("Name is " + users[a].full_names);
+                for(int b = 0; b < users[a].likes.Count; b++)
+                {
+                   // Console.WriteLine( "I like  " + users[a].likes[b].type +" by this much : "+ users[a].likes[b].rating);
+                }
+                Console.WriteLine("I am " + (DateTime.Now.Year - users[a].dob.Year));
+            }
         }
 
 
@@ -52,7 +68,15 @@ namespace SDA_Survey
         public bool validateInput()
         {
             bool status=true;
-
+            if(DateTime.Now.Year-dtpDob.Value.Date.Year<5 || DateTime.Now.Year - dtpDob.Value.Date.Year > 120)
+            {
+                status = false;
+                lbldToErr.Visible = true;
+            }
+            else
+            {
+                lbldToErr.Visible=false;
+            }
             if (txtFull_Names.Text.Length < 3)
             { 
                 lblFullErr.Visible = true;
@@ -204,11 +228,11 @@ namespace SDA_Survey
                 user.foodList.Add(new FavFood(Type.OTHER));
             }
 
-            user.likes = new List<Likes>();
-            user.likes.Add(new Likes());
-            user.likes.Add(new Likes());
-            user.likes.Add(new Likes());
-            user.likes.Add(new Likes());
+            user.likes = new List<Like>();
+            user.likes.Add(new Like());
+            user.likes.Add(new Like());
+            user.likes.Add(new Like());
+            user.likes.Add(new Like());
 
             //Get User Rating
             if (rbMovies1.Checked) { user.likes[0].rating = 1; }
@@ -239,17 +263,22 @@ namespace SDA_Survey
 
         private void lblViewSurveyResults_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            Thread t2 = new Thread(() =>
+            {
+                Application.Run(new frmResults());
+            });
+            t2.Start();
             this.Close();
-            frmResults res=new frmResults();
-            res.Show();
+        }
+
+        private void lblFillOutSurvey_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
 
         }
 
         /*
-         * for testing input
-        public void displayuser()
+        public void ShowUsers(User user)
         {
-            User user = getInformation();
             Console.WriteLine("users name is "+user.full_names);
             Console.WriteLine("email is "+user.email);
             Console.WriteLine("dob is "+user.dob.ToShortDateString());
@@ -264,7 +293,7 @@ namespace SDA_Survey
             Console.WriteLine("Radio " + user.likes[1].rating);
             Console.WriteLine("Eat Out " + user.likes[2].rating);
             Console.WriteLine("TV " + user.likes[3].rating);
-
+            
         }*/
 
     }

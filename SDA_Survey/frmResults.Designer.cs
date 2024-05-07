@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmResults));
             this.label1 = new System.Windows.Forms.Label();
             this.lblFillOutSurvey = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -47,13 +48,13 @@
             this.lblAvgSurveys = new System.Windows.Forms.Label();
             this.lblMaxAge = new System.Windows.Forms.Label();
             this.lblMinAge = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.lblPizza = new System.Windows.Forms.Label();
+            this.lblPasta = new System.Windows.Forms.Label();
+            this.lblPap = new System.Windows.Forms.Label();
+            this.lblAvgMovies = new System.Windows.Forms.Label();
+            this.lblAvgRadio = new System.Windows.Forms.Label();
+            this.lblAvgEat = new System.Windows.Forms.Label();
+            this.lblAvgTv = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -215,9 +216,9 @@
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(241, 607);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(317, 18);
+            this.label13.Size = new System.Drawing.Size(198, 18);
             this.label13.TabIndex = 14;
-            this.label13.Text = "Percentage of people who like Pap and Wors : ";
+            this.label13.Text = "People who like to wach TV :";
             // 
             // lblnSurveys
             // 
@@ -260,88 +261,90 @@
             this.lblMinAge.TabIndex = 18;
             this.lblMinAge.Text = "#min age";
             // 
-            // label18
+            // lblPizza
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(716, 377);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(74, 18);
-            this.label18.TabIndex = 19;
-            this.label18.Text = "# % Pizza";
+            this.lblPizza.AutoSize = true;
+            this.lblPizza.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPizza.Location = new System.Drawing.Point(716, 377);
+            this.lblPizza.Name = "lblPizza";
+            this.lblPizza.Size = new System.Drawing.Size(74, 18);
+            this.lblPizza.TabIndex = 19;
+            this.lblPizza.Text = "# % Pizza";
             // 
-            // label19
+            // lblPasta
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(715, 407);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(75, 18);
-            this.label19.TabIndex = 20;
-            this.label19.Text = "# % Pasta";
+            this.lblPasta.AutoSize = true;
+            this.lblPasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPasta.Location = new System.Drawing.Point(715, 407);
+            this.lblPasta.Name = "lblPasta";
+            this.lblPasta.Size = new System.Drawing.Size(75, 18);
+            this.lblPasta.TabIndex = 20;
+            this.lblPasta.Text = "# % Pasta";
             // 
-            // label20
+            // lblPap
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(715, 437);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(132, 18);
-            this.label20.TabIndex = 21;
-            this.label20.Text = "# % Pap and Wors";
+            this.lblPap.AutoSize = true;
+            this.lblPap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPap.Location = new System.Drawing.Point(715, 437);
+            this.lblPap.Name = "lblPap";
+            this.lblPap.Size = new System.Drawing.Size(132, 18);
+            this.lblPap.TabIndex = 21;
+            this.lblPap.Text = "# % Pap and Wors";
             // 
-            // label21
+            // lblAvgMovies
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(715, 517);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(108, 18);
-            this.label21.TabIndex = 22;
-            this.label21.Text = "#average rating";
+            this.lblAvgMovies.AutoSize = true;
+            this.lblAvgMovies.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAvgMovies.Location = new System.Drawing.Point(715, 517);
+            this.lblAvgMovies.Name = "lblAvgMovies";
+            this.lblAvgMovies.Size = new System.Drawing.Size(108, 18);
+            this.lblAvgMovies.TabIndex = 22;
+            this.lblAvgMovies.Text = "#average rating";
             // 
-            // label22
+            // lblAvgRadio
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(715, 547);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(108, 18);
-            this.label22.TabIndex = 23;
-            this.label22.Text = "#average rating";
+            this.lblAvgRadio.AutoSize = true;
+            this.lblAvgRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAvgRadio.Location = new System.Drawing.Point(715, 547);
+            this.lblAvgRadio.Name = "lblAvgRadio";
+            this.lblAvgRadio.Size = new System.Drawing.Size(108, 18);
+            this.lblAvgRadio.TabIndex = 23;
+            this.lblAvgRadio.Text = "#average rating";
             // 
-            // label23
+            // lblAvgEat
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(715, 577);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(108, 18);
-            this.label23.TabIndex = 24;
-            this.label23.Text = "#average rating";
+            this.lblAvgEat.AutoSize = true;
+            this.lblAvgEat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAvgEat.Location = new System.Drawing.Point(715, 577);
+            this.lblAvgEat.Name = "lblAvgEat";
+            this.lblAvgEat.Size = new System.Drawing.Size(108, 18);
+            this.lblAvgEat.TabIndex = 24;
+            this.lblAvgEat.Text = "#average rating";
             // 
-            // label24
+            // lblAvgTv
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(716, 607);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(108, 18);
-            this.label24.TabIndex = 25;
-            this.label24.Text = "#average rating";
+            this.lblAvgTv.AutoSize = true;
+            this.lblAvgTv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAvgTv.Location = new System.Drawing.Point(716, 607);
+            this.lblAvgTv.Name = "lblAvgTv";
+            this.lblAvgTv.Size = new System.Drawing.Size(108, 18);
+            this.lblAvgTv.TabIndex = 25;
+            this.lblAvgTv.Text = "#average rating";
             // 
             // frmResults
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1062, 739);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
+            this.Controls.Add(this.lblAvgTv);
+            this.Controls.Add(this.lblAvgEat);
+            this.Controls.Add(this.lblAvgRadio);
+            this.Controls.Add(this.lblAvgMovies);
+            this.Controls.Add(this.lblPap);
+            this.Controls.Add(this.lblPasta);
+            this.Controls.Add(this.lblPizza);
             this.Controls.Add(this.lblMinAge);
             this.Controls.Add(this.lblMaxAge);
             this.Controls.Add(this.lblAvgSurveys);
@@ -361,8 +364,11 @@
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.lblFillOutSurvey);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmResults";
-            this.Text = "frmResults";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.frmResults_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -389,12 +395,12 @@
         private System.Windows.Forms.Label lblAvgSurveys;
         private System.Windows.Forms.Label lblMaxAge;
         private System.Windows.Forms.Label lblMinAge;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label lblPizza;
+        private System.Windows.Forms.Label lblPasta;
+        private System.Windows.Forms.Label lblPap;
+        private System.Windows.Forms.Label lblAvgMovies;
+        private System.Windows.Forms.Label lblAvgRadio;
+        private System.Windows.Forms.Label lblAvgEat;
+        private System.Windows.Forms.Label lblAvgTv;
     }
 }

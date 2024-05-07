@@ -17,7 +17,7 @@ namespace SDA_Survey
         public DateTime dob { get; set; }
         public string contact { get; set; }
         public List<FavFood> foodList { get; set; }
-        public List<Likes> likes;
+        public List<Like> likes;
 
     }
 }

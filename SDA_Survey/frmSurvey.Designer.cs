@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSdaSurvey));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -90,6 +91,7 @@
             this.lblRadioErr = new System.Windows.Forms.Label();
             this.lblEatErr = new System.Windows.Forms.Label();
             this.lblTVErr = new System.Windows.Forms.Label();
+            this.lbldToErr = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -388,7 +390,7 @@
             // 
             this.rbMovies4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbMovies4.AutoSize = true;
-            this.rbMovies4.Location = new System.Drawing.Point(438, 5);
+            this.rbMovies4.Location = new System.Drawing.Point(436, 5);
             this.rbMovies4.Name = "rbMovies4";
             this.rbMovies4.Size = new System.Drawing.Size(17, 16);
             this.rbMovies4.TabIndex = 78;
@@ -399,7 +401,7 @@
             // 
             this.rbMovies2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbMovies2.AutoSize = true;
-            this.rbMovies2.Location = new System.Drawing.Point(182, 5);
+            this.rbMovies2.Location = new System.Drawing.Point(181, 5);
             this.rbMovies2.Name = "rbMovies2";
             this.rbMovies2.Size = new System.Drawing.Size(17, 16);
             this.rbMovies2.TabIndex = 76;
@@ -423,7 +425,7 @@
             // 
             this.rbMovies3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbMovies3.AutoSize = true;
-            this.rbMovies3.Location = new System.Drawing.Point(310, 5);
+            this.rbMovies3.Location = new System.Drawing.Point(308, 5);
             this.rbMovies3.Name = "rbMovies3";
             this.rbMovies3.Size = new System.Drawing.Size(17, 16);
             this.rbMovies3.TabIndex = 77;
@@ -434,7 +436,7 @@
             // 
             this.rbMovies5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbMovies5.AutoSize = true;
-            this.rbMovies5.Location = new System.Drawing.Point(567, 5);
+            this.rbMovies5.Location = new System.Drawing.Point(566, 5);
             this.rbMovies5.Name = "rbMovies5";
             this.rbMovies5.Size = new System.Drawing.Size(17, 16);
             this.rbMovies5.TabIndex = 79;
@@ -450,7 +452,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 128F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -537,7 +539,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 128F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -618,7 +620,7 @@
             // 
             this.rbRadio5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbRadio5.AutoSize = true;
-            this.rbRadio5.Location = new System.Drawing.Point(567, 5);
+            this.rbRadio5.Location = new System.Drawing.Point(566, 5);
             this.rbRadio5.Name = "rbRadio5";
             this.rbRadio5.Size = new System.Drawing.Size(17, 16);
             this.rbRadio5.TabIndex = 79;
@@ -629,7 +631,7 @@
             // 
             this.rbRadio3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbRadio3.AutoSize = true;
-            this.rbRadio3.Location = new System.Drawing.Point(310, 5);
+            this.rbRadio3.Location = new System.Drawing.Point(308, 5);
             this.rbRadio3.Name = "rbRadio3";
             this.rbRadio3.Size = new System.Drawing.Size(17, 16);
             this.rbRadio3.TabIndex = 77;
@@ -651,7 +653,7 @@
             // 
             this.rbRadio2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbRadio2.AutoSize = true;
-            this.rbRadio2.Location = new System.Drawing.Point(182, 5);
+            this.rbRadio2.Location = new System.Drawing.Point(181, 5);
             this.rbRadio2.Name = "rbRadio2";
             this.rbRadio2.Size = new System.Drawing.Size(17, 16);
             this.rbRadio2.TabIndex = 76;
@@ -662,7 +664,7 @@
             // 
             this.rbRadio4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbRadio4.AutoSize = true;
-            this.rbRadio4.Location = new System.Drawing.Point(438, 5);
+            this.rbRadio4.Location = new System.Drawing.Point(436, 5);
             this.rbRadio4.Name = "rbRadio4";
             this.rbRadio4.Size = new System.Drawing.Size(17, 16);
             this.rbRadio4.TabIndex = 78;
@@ -678,7 +680,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 128F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -759,7 +761,7 @@
             // 
             this.rbTV5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbTV5.AutoSize = true;
-            this.rbTV5.Location = new System.Drawing.Point(567, 5);
+            this.rbTV5.Location = new System.Drawing.Point(566, 5);
             this.rbTV5.Name = "rbTV5";
             this.rbTV5.Size = new System.Drawing.Size(17, 16);
             this.rbTV5.TabIndex = 79;
@@ -770,7 +772,7 @@
             // 
             this.rbTV3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbTV3.AutoSize = true;
-            this.rbTV3.Location = new System.Drawing.Point(310, 5);
+            this.rbTV3.Location = new System.Drawing.Point(308, 5);
             this.rbTV3.Name = "rbTV3";
             this.rbTV3.Size = new System.Drawing.Size(17, 16);
             this.rbTV3.TabIndex = 77;
@@ -792,7 +794,7 @@
             // 
             this.rbTV2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbTV2.AutoSize = true;
-            this.rbTV2.Location = new System.Drawing.Point(182, 5);
+            this.rbTV2.Location = new System.Drawing.Point(181, 5);
             this.rbTV2.Name = "rbTV2";
             this.rbTV2.Size = new System.Drawing.Size(17, 16);
             this.rbTV2.TabIndex = 76;
@@ -803,7 +805,7 @@
             // 
             this.rbTV4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbTV4.AutoSize = true;
-            this.rbTV4.Location = new System.Drawing.Point(438, 5);
+            this.rbTV4.Location = new System.Drawing.Point(436, 5);
             this.rbTV4.Name = "rbTV4";
             this.rbTV4.Size = new System.Drawing.Size(17, 16);
             this.rbTV4.TabIndex = 78;
@@ -819,7 +821,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 128F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -900,7 +902,7 @@
             // 
             this.rbEat5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbEat5.AutoSize = true;
-            this.rbEat5.Location = new System.Drawing.Point(567, 5);
+            this.rbEat5.Location = new System.Drawing.Point(566, 5);
             this.rbEat5.Name = "rbEat5";
             this.rbEat5.Size = new System.Drawing.Size(17, 16);
             this.rbEat5.TabIndex = 79;
@@ -911,7 +913,7 @@
             // 
             this.rbEat3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbEat3.AutoSize = true;
-            this.rbEat3.Location = new System.Drawing.Point(310, 5);
+            this.rbEat3.Location = new System.Drawing.Point(308, 5);
             this.rbEat3.Name = "rbEat3";
             this.rbEat3.Size = new System.Drawing.Size(17, 16);
             this.rbEat3.TabIndex = 77;
@@ -933,7 +935,7 @@
             // 
             this.rbEat2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbEat2.AutoSize = true;
-            this.rbEat2.Location = new System.Drawing.Point(182, 5);
+            this.rbEat2.Location = new System.Drawing.Point(181, 5);
             this.rbEat2.Name = "rbEat2";
             this.rbEat2.Size = new System.Drawing.Size(17, 16);
             this.rbEat2.TabIndex = 76;
@@ -944,7 +946,7 @@
             // 
             this.rbEat4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rbEat4.AutoSize = true;
-            this.rbEat4.Location = new System.Drawing.Point(438, 5);
+            this.rbEat4.Location = new System.Drawing.Point(436, 5);
             this.rbEat4.Name = "rbEat4";
             this.rbEat4.Size = new System.Drawing.Size(17, 16);
             this.rbEat4.TabIndex = 78;
@@ -965,6 +967,7 @@
             this.lblFillOutSurvey.TabStop = true;
             this.lblFillOutSurvey.Text = "FILL OUT SURVEY";
             this.lblFillOutSurvey.VisitedLinkColor = System.Drawing.Color.White;
+            this.lblFillOutSurvey.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblFillOutSurvey_LinkClicked);
             // 
             // lblViewSurveyResults
             // 
@@ -1043,7 +1046,7 @@
             this.lblContactErr.AutoSize = true;
             this.lblContactErr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContactErr.ForeColor = System.Drawing.Color.Red;
-            this.lblContactErr.Location = new System.Drawing.Point(594, 377);
+            this.lblContactErr.Location = new System.Drawing.Point(589, 369);
             this.lblContactErr.Name = "lblContactErr";
             this.lblContactErr.Size = new System.Drawing.Size(20, 25);
             this.lblContactErr.TabIndex = 85;
@@ -1098,6 +1101,18 @@
             this.lblTVErr.Text = "*";
             this.lblTVErr.Visible = false;
             // 
+            // lbldToErr
+            // 
+            this.lbldToErr.AutoSize = true;
+            this.lbldToErr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldToErr.ForeColor = System.Drawing.Color.Red;
+            this.lbldToErr.Location = new System.Drawing.Point(589, 291);
+            this.lbldToErr.Name = "lbldToErr";
+            this.lbldToErr.Size = new System.Drawing.Size(20, 25);
+            this.lbldToErr.TabIndex = 90;
+            this.lbldToErr.Text = "*";
+            this.lbldToErr.Visible = false;
+            // 
             // frmSdaSurvey
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1105,6 +1120,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1062, 739);
+            this.Controls.Add(this.lbldToErr);
             this.Controls.Add(this.lblTVErr);
             this.Controls.Add(this.lblEatErr);
             this.Controls.Add(this.lblRadioErr);
@@ -1147,12 +1163,12 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.HelpButton = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmSdaSurvey";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SDA";
             this.Load += new System.EventHandler(this.frmSdaSurvey_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -1230,6 +1246,7 @@
         private System.Windows.Forms.Label lblRadioErr;
         private System.Windows.Forms.Label lblEatErr;
         private System.Windows.Forms.Label lblTVErr;
+        private System.Windows.Forms.Label lbldToErr;
     }
 }
 

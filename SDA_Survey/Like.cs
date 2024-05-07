@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace SDA_Survey
 {
+    enum TYPE
+    {
+        MOVIES,RADIO,EAT,TV
+    }
   
-    class Likes
+    class Like
     {
         public int rating;
+        public TYPE type;
     }
 }

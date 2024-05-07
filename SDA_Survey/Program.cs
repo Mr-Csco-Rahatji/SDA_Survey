@@ -24,7 +24,7 @@ namespace SDA_Survey
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmSdaSurvey());
+            Application.Run( new frmSdaSurvey());
             
 
         }
