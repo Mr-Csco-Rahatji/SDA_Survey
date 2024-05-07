@@ -55,6 +55,9 @@
             this.lblAvgRadio = new System.Windows.Forms.Label();
             this.lblAvgEat = new System.Windows.Forms.Label();
             this.lblAvgTv = new System.Windows.Forms.Label();
+            this.pnlNoSurvey = new System.Windows.Forms.Panel();
+            this.lblNoSurveys = new System.Windows.Forms.Label();
+            this.pnlNoSurvey.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -331,6 +334,26 @@
             this.lblAvgTv.TabIndex = 25;
             this.lblAvgTv.Text = "#average rating";
             // 
+            // pnlNoSurvey
+            // 
+            this.pnlNoSurvey.Controls.Add(this.lblNoSurveys);
+            this.pnlNoSurvey.Location = new System.Drawing.Point(218, 101);
+            this.pnlNoSurvey.Name = "pnlNoSurvey";
+            this.pnlNoSurvey.Size = new System.Drawing.Size(664, 535);
+            this.pnlNoSurvey.TabIndex = 26;
+            this.pnlNoSurvey.Visible = false;
+            // 
+            // lblNoSurveys
+            // 
+            this.lblNoSurveys.AutoSize = true;
+            this.lblNoSurveys.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoSurveys.Location = new System.Drawing.Point(173, 276);
+            this.lblNoSurveys.Name = "lblNoSurveys";
+            this.lblNoSurveys.Size = new System.Drawing.Size(342, 39);
+            this.lblNoSurveys.TabIndex = 0;
+            this.lblNoSurveys.Text = "No Surveys Available";
+            this.lblNoSurveys.Visible = false;
+            // 
             // frmResults
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -338,6 +361,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1062, 739);
+            this.Controls.Add(this.pnlNoSurvey);
             this.Controls.Add(this.lblAvgTv);
             this.Controls.Add(this.lblAvgEat);
             this.Controls.Add(this.lblAvgRadio);
@@ -364,11 +388,13 @@
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.lblFillOutSurvey);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmResults";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmResults_Load);
+            this.pnlNoSurvey.ResumeLayout(false);
+            this.pnlNoSurvey.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -402,5 +428,7 @@
         private System.Windows.Forms.Label lblAvgRadio;
         private System.Windows.Forms.Label lblAvgEat;
         private System.Windows.Forms.Label lblAvgTv;
+        private System.Windows.Forms.Panel pnlNoSurvey;
+        private System.Windows.Forms.Label lblNoSurveys;
     }
 }
