@@ -43,10 +43,10 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lblnSurveys = new System.Windows.Forms.Label();
+            this.lblAvgSurveys = new System.Windows.Forms.Label();
+            this.lblMaxAge = new System.Windows.Forms.Label();
+            this.lblMinAge = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -80,6 +80,7 @@
             this.lblFillOutSurvey.TabIndex = 1;
             this.lblFillOutSurvey.TabStop = true;
             this.lblFillOutSurvey.Text = "FILL OUT SURVEY";
+            this.lblFillOutSurvey.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblFillOutSurvey_LinkClicked);
             // 
             // linkLabel1
             // 
@@ -95,6 +96,7 @@
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "VIEW SURVEY RESULTS";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label2
             // 
@@ -217,46 +219,46 @@
             this.label13.TabIndex = 14;
             this.label13.Text = "Percentage of people who like Pap and Wors : ";
             // 
-            // label14
+            // lblnSurveys
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(716, 207);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(67, 18);
-            this.label14.TabIndex = 15;
-            this.label14.Text = "#surveys";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
+            this.lblnSurveys.AutoSize = true;
+            this.lblnSurveys.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnSurveys.Location = new System.Drawing.Point(716, 207);
+            this.lblnSurveys.Name = "lblnSurveys";
+            this.lblnSurveys.Size = new System.Drawing.Size(67, 18);
+            this.lblnSurveys.TabIndex = 15;
+            this.lblnSurveys.Text = "#surveys";
+            this.lblnSurveys.Click += new System.EventHandler(this.label14_Click);
             // 
-            // label15
+            // lblAvgSurveys
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(716, 237);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(67, 18);
-            this.label15.TabIndex = 16;
-            this.label15.Text = "#surveys";
+            this.lblAvgSurveys.AutoSize = true;
+            this.lblAvgSurveys.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAvgSurveys.Location = new System.Drawing.Point(716, 237);
+            this.lblAvgSurveys.Name = "lblAvgSurveys";
+            this.lblAvgSurveys.Size = new System.Drawing.Size(67, 18);
+            this.lblAvgSurveys.TabIndex = 16;
+            this.lblAvgSurveys.Text = "#surveys";
             // 
-            // label16
+            // lblMaxAge
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(716, 267);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(72, 18);
-            this.label16.TabIndex = 17;
-            this.label16.Text = "#max age";
+            this.lblMaxAge.AutoSize = true;
+            this.lblMaxAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMaxAge.Location = new System.Drawing.Point(716, 267);
+            this.lblMaxAge.Name = "lblMaxAge";
+            this.lblMaxAge.Size = new System.Drawing.Size(72, 18);
+            this.lblMaxAge.TabIndex = 17;
+            this.lblMaxAge.Text = "#max age";
             // 
-            // label17
+            // lblMinAge
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(715, 297);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(68, 18);
-            this.label17.TabIndex = 18;
-            this.label17.Text = "#min age";
+            this.lblMinAge.AutoSize = true;
+            this.lblMinAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMinAge.Location = new System.Drawing.Point(715, 297);
+            this.lblMinAge.Name = "lblMinAge";
+            this.lblMinAge.Size = new System.Drawing.Size(68, 18);
+            this.lblMinAge.TabIndex = 18;
+            this.lblMinAge.Text = "#min age";
             // 
             // label18
             // 
@@ -340,10 +342,10 @@
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
+            this.Controls.Add(this.lblMinAge);
+            this.Controls.Add(this.lblMaxAge);
+            this.Controls.Add(this.lblAvgSurveys);
+            this.Controls.Add(this.lblnSurveys);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -383,10 +385,10 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lblnSurveys;
+        private System.Windows.Forms.Label lblAvgSurveys;
+        private System.Windows.Forms.Label lblMaxAge;
+        private System.Windows.Forms.Label lblMinAge;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;

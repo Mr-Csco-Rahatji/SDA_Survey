@@ -6,19 +6,9 @@ using System.Threading.Tasks;
 
 namespace SDA_Survey
 {
-    enum OURlIKES
+  
+    class Likes
     {
-        MOVIES,
-        RADIO,
-        EAT_OUT,
-        TV
-    }
-
-    class likes
-    {
-        private string email;
-        private string contact;
-        private int rating;
-        private OURlIKES TYPE;
+        public int rating;
     }
 }

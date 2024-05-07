@@ -6,12 +6,18 @@ using System.Threading.Tasks;
 
 namespace SDA_Survey
 {
-    class user
+    enum Rating
     {
-        private string full_names { get; set; }
-        private string email { get; set; }
-        private DateTime dob { get; set; }
-        string contact { get; set; }
-        private LinkedList<likes>   likes    { get; set;}
+        s
+    }
+    class User
+    {
+        public string full_names { get; set; }
+        public string email { get; set; }
+        public DateTime dob { get; set; }
+        public string contact { get; set; }
+        public List<FavFood> foodList { get; set; }
+        public List<Likes> likes;
+
     }
 }

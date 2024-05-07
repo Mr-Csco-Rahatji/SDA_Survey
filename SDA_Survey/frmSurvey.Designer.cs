@@ -34,9 +34,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtFull_Names = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.dtpDob = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.chkPizza = new System.Windows.Forms.CheckBox();
             this.chkPasta = new System.Windows.Forms.CheckBox();
@@ -54,35 +54,42 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
-            this.radioButton25 = new System.Windows.Forms.RadioButton();
-            this.radioButton27 = new System.Windows.Forms.RadioButton();
-            this.radioButton28 = new System.Windows.Forms.RadioButton();
-            this.radioButton26 = new System.Windows.Forms.RadioButton();
-            this.radioButton23 = new System.Windows.Forms.RadioButton();
+            this.rbMovies4 = new System.Windows.Forms.RadioButton();
+            this.rbMovies2 = new System.Windows.Forms.RadioButton();
+            this.rbMovies1 = new System.Windows.Forms.RadioButton();
+            this.rbMovies3 = new System.Windows.Forms.RadioButton();
+            this.rbMovies5 = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.rbRadio5 = new System.Windows.Forms.RadioButton();
+            this.rbRadio3 = new System.Windows.Forms.RadioButton();
+            this.rbRadio1 = new System.Windows.Forms.RadioButton();
+            this.rbRadio2 = new System.Windows.Forms.RadioButton();
+            this.rbRadio4 = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.rbTV5 = new System.Windows.Forms.RadioButton();
+            this.rbTV3 = new System.Windows.Forms.RadioButton();
+            this.rbTV1 = new System.Windows.Forms.RadioButton();
+            this.rbTV2 = new System.Windows.Forms.RadioButton();
+            this.rbTV4 = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.radioButton13 = new System.Windows.Forms.RadioButton();
-            this.radioButton14 = new System.Windows.Forms.RadioButton();
-            this.radioButton15 = new System.Windows.Forms.RadioButton();
+            this.rbEat5 = new System.Windows.Forms.RadioButton();
+            this.rbEat3 = new System.Windows.Forms.RadioButton();
+            this.rbEat1 = new System.Windows.Forms.RadioButton();
+            this.rbEat2 = new System.Windows.Forms.RadioButton();
+            this.rbEat4 = new System.Windows.Forms.RadioButton();
             this.lblFillOutSurvey = new System.Windows.Forms.LinkLabel();
             this.lblViewSurveyResults = new System.Windows.Forms.LinkLabel();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.txtContact = new System.Windows.Forms.TextBox();
             this.lblNullsExist = new System.Windows.Forms.Label();
+            this.lblFullErr = new System.Windows.Forms.Label();
+            this.lblEmailErr = new System.Windows.Forms.Label();
+            this.lblContactErr = new System.Windows.Forms.Label();
+            this.lblMovieErr = new System.Windows.Forms.Label();
+            this.lblRadioErr = new System.Windows.Forms.Label();
+            this.lblEatErr = new System.Windows.Forms.Label();
+            this.lblTVErr = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -149,34 +156,34 @@
             this.label6.TabIndex = 7;
             this.label6.Text = "Contact Number";
             // 
-            // textBox1
+            // txtFull_Names
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.textBox1.Location = new System.Drawing.Point(315, 154);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(266, 25);
-            this.textBox1.TabIndex = 8;
+            this.txtFull_Names.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtFull_Names.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtFull_Names.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFull_Names.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.txtFull_Names.Location = new System.Drawing.Point(315, 154);
+            this.txtFull_Names.Multiline = true;
+            this.txtFull_Names.Name = "txtFull_Names";
+            this.txtFull_Names.Size = new System.Drawing.Size(266, 25);
+            this.txtFull_Names.TabIndex = 8;
             // 
-            // textBox2
+            // txtEmail
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(315, 222);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(266, 25);
-            this.textBox2.TabIndex = 9;
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(315, 222);
+            this.txtEmail.Multiline = true;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(266, 25);
+            this.txtEmail.TabIndex = 9;
             // 
-            // dateTimePicker1
+            // dtpDob
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(315, 291);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(266, 24);
-            this.dateTimePicker1.TabIndex = 12;
+            this.dtpDob.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpDob.Location = new System.Drawing.Point(315, 291);
+            this.dtpDob.Name = "dtpDob";
+            this.dtpDob.Size = new System.Drawing.Size(266, 24);
+            this.dtpDob.TabIndex = 12;
             // 
             // label7
             // 
@@ -377,62 +384,62 @@
             this.textBox13.Text = "Strongly Disagree";
             this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // radioButton25
+            // rbMovies4
             // 
-            this.radioButton25.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton25.AutoSize = true;
-            this.radioButton25.Location = new System.Drawing.Point(440, 5);
-            this.radioButton25.Name = "radioButton25";
-            this.radioButton25.Size = new System.Drawing.Size(17, 16);
-            this.radioButton25.TabIndex = 78;
-            this.radioButton25.TabStop = true;
-            this.radioButton25.UseVisualStyleBackColor = true;
+            this.rbMovies4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbMovies4.AutoSize = true;
+            this.rbMovies4.Location = new System.Drawing.Point(438, 5);
+            this.rbMovies4.Name = "rbMovies4";
+            this.rbMovies4.Size = new System.Drawing.Size(17, 16);
+            this.rbMovies4.TabIndex = 78;
+            this.rbMovies4.TabStop = true;
+            this.rbMovies4.UseVisualStyleBackColor = true;
             // 
-            // radioButton27
+            // rbMovies2
             // 
-            this.radioButton27.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton27.AutoSize = true;
-            this.radioButton27.Location = new System.Drawing.Point(184, 5);
-            this.radioButton27.Name = "radioButton27";
-            this.radioButton27.Size = new System.Drawing.Size(17, 16);
-            this.radioButton27.TabIndex = 76;
-            this.radioButton27.TabStop = true;
-            this.radioButton27.UseVisualStyleBackColor = true;
+            this.rbMovies2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbMovies2.AutoSize = true;
+            this.rbMovies2.Location = new System.Drawing.Point(182, 5);
+            this.rbMovies2.Name = "rbMovies2";
+            this.rbMovies2.Size = new System.Drawing.Size(17, 16);
+            this.rbMovies2.TabIndex = 76;
+            this.rbMovies2.TabStop = true;
+            this.rbMovies2.UseVisualStyleBackColor = true;
             // 
-            // radioButton28
+            // rbMovies1
             // 
-            this.radioButton28.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton28.AutoSize = true;
-            this.radioButton28.BackColor = System.Drawing.SystemColors.Control;
-            this.radioButton28.ForeColor = System.Drawing.SystemColors.Control;
-            this.radioButton28.Location = new System.Drawing.Point(56, 5);
-            this.radioButton28.Name = "radioButton28";
-            this.radioButton28.Size = new System.Drawing.Size(17, 16);
-            this.radioButton28.TabIndex = 75;
-            this.radioButton28.TabStop = true;
-            this.radioButton28.UseVisualStyleBackColor = false;
+            this.rbMovies1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbMovies1.AutoSize = true;
+            this.rbMovies1.BackColor = System.Drawing.SystemColors.Control;
+            this.rbMovies1.ForeColor = System.Drawing.SystemColors.Control;
+            this.rbMovies1.Location = new System.Drawing.Point(55, 5);
+            this.rbMovies1.Name = "rbMovies1";
+            this.rbMovies1.Size = new System.Drawing.Size(17, 16);
+            this.rbMovies1.TabIndex = 75;
+            this.rbMovies1.TabStop = true;
+            this.rbMovies1.UseVisualStyleBackColor = false;
             // 
-            // radioButton26
+            // rbMovies3
             // 
-            this.radioButton26.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton26.AutoSize = true;
-            this.radioButton26.Location = new System.Drawing.Point(312, 5);
-            this.radioButton26.Name = "radioButton26";
-            this.radioButton26.Size = new System.Drawing.Size(17, 16);
-            this.radioButton26.TabIndex = 77;
-            this.radioButton26.TabStop = true;
-            this.radioButton26.UseVisualStyleBackColor = true;
+            this.rbMovies3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbMovies3.AutoSize = true;
+            this.rbMovies3.Location = new System.Drawing.Point(310, 5);
+            this.rbMovies3.Name = "rbMovies3";
+            this.rbMovies3.Size = new System.Drawing.Size(17, 16);
+            this.rbMovies3.TabIndex = 77;
+            this.rbMovies3.TabStop = true;
+            this.rbMovies3.UseVisualStyleBackColor = true;
             // 
-            // radioButton23
+            // rbMovies5
             // 
-            this.radioButton23.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton23.AutoSize = true;
-            this.radioButton23.Location = new System.Drawing.Point(568, 5);
-            this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(17, 16);
-            this.radioButton23.TabIndex = 79;
-            this.radioButton23.TabStop = true;
-            this.radioButton23.UseVisualStyleBackColor = true;
+            this.rbMovies5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbMovies5.AutoSize = true;
+            this.rbMovies5.Location = new System.Drawing.Point(567, 5);
+            this.rbMovies5.Name = "rbMovies5";
+            this.rbMovies5.Size = new System.Drawing.Size(17, 16);
+            this.rbMovies5.TabIndex = 79;
+            this.rbMovies5.TabStop = true;
+            this.rbMovies5.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
             // 
@@ -443,7 +450,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 128F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -504,11 +511,11 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.radioButton23, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.radioButton26, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.radioButton28, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.radioButton27, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.radioButton25, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.rbMovies5, 4, 0);
+            this.tableLayoutPanel1.Controls.Add(this.rbMovies3, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.rbMovies1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.rbMovies2, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.rbMovies4, 3, 0);
             this.tableLayoutPanel1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(250, 552);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -530,7 +537,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 128F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -591,11 +598,11 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Controls.Add(this.radioButton1, 4, 0);
-            this.tableLayoutPanel2.Controls.Add(this.radioButton2, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.radioButton3, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.radioButton4, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.radioButton5, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.rbRadio5, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.rbRadio3, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.rbRadio1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.rbRadio2, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.rbRadio4, 3, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(250, 578);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
@@ -607,60 +614,60 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(643, 27);
             this.tableLayoutPanel2.TabIndex = 75;
             // 
-            // radioButton1
+            // rbRadio5
             // 
-            this.radioButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(568, 5);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(17, 16);
-            this.radioButton1.TabIndex = 79;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbRadio5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbRadio5.AutoSize = true;
+            this.rbRadio5.Location = new System.Drawing.Point(567, 5);
+            this.rbRadio5.Name = "rbRadio5";
+            this.rbRadio5.Size = new System.Drawing.Size(17, 16);
+            this.rbRadio5.TabIndex = 79;
+            this.rbRadio5.TabStop = true;
+            this.rbRadio5.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbRadio3
             // 
-            this.radioButton2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(312, 5);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(17, 16);
-            this.radioButton2.TabIndex = 77;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbRadio3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbRadio3.AutoSize = true;
+            this.rbRadio3.Location = new System.Drawing.Point(310, 5);
+            this.rbRadio3.Name = "rbRadio3";
+            this.rbRadio3.Size = new System.Drawing.Size(17, 16);
+            this.rbRadio3.TabIndex = 77;
+            this.rbRadio3.TabStop = true;
+            this.rbRadio3.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rbRadio1
             // 
-            this.radioButton3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(56, 5);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(17, 16);
-            this.radioButton3.TabIndex = 75;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbRadio1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbRadio1.AutoSize = true;
+            this.rbRadio1.Location = new System.Drawing.Point(55, 5);
+            this.rbRadio1.Name = "rbRadio1";
+            this.rbRadio1.Size = new System.Drawing.Size(17, 16);
+            this.rbRadio1.TabIndex = 75;
+            this.rbRadio1.TabStop = true;
+            this.rbRadio1.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rbRadio2
             // 
-            this.radioButton4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(184, 5);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(17, 16);
-            this.radioButton4.TabIndex = 76;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rbRadio2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbRadio2.AutoSize = true;
+            this.rbRadio2.Location = new System.Drawing.Point(182, 5);
+            this.rbRadio2.Name = "rbRadio2";
+            this.rbRadio2.Size = new System.Drawing.Size(17, 16);
+            this.rbRadio2.TabIndex = 76;
+            this.rbRadio2.TabStop = true;
+            this.rbRadio2.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // rbRadio4
             // 
-            this.radioButton5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(440, 5);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(17, 16);
-            this.radioButton5.TabIndex = 78;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rbRadio4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbRadio4.AutoSize = true;
+            this.rbRadio4.Location = new System.Drawing.Point(438, 5);
+            this.rbRadio4.Name = "rbRadio4";
+            this.rbRadio4.Size = new System.Drawing.Size(17, 16);
+            this.rbRadio4.TabIndex = 78;
+            this.rbRadio4.TabStop = true;
+            this.rbRadio4.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
             // 
@@ -671,7 +678,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 128F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -732,11 +739,11 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Controls.Add(this.radioButton6, 4, 0);
-            this.tableLayoutPanel3.Controls.Add(this.radioButton7, 2, 0);
-            this.tableLayoutPanel3.Controls.Add(this.radioButton8, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.radioButton9, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.radioButton10, 3, 0);
+            this.tableLayoutPanel3.Controls.Add(this.rbTV5, 4, 0);
+            this.tableLayoutPanel3.Controls.Add(this.rbTV3, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.rbTV1, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.rbTV2, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.rbTV4, 3, 0);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(250, 630);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
@@ -748,60 +755,60 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(643, 27);
             this.tableLayoutPanel3.TabIndex = 77;
             // 
-            // radioButton6
+            // rbTV5
             // 
-            this.radioButton6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(568, 5);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(17, 16);
-            this.radioButton6.TabIndex = 79;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.rbTV5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbTV5.AutoSize = true;
+            this.rbTV5.Location = new System.Drawing.Point(567, 5);
+            this.rbTV5.Name = "rbTV5";
+            this.rbTV5.Size = new System.Drawing.Size(17, 16);
+            this.rbTV5.TabIndex = 79;
+            this.rbTV5.TabStop = true;
+            this.rbTV5.UseVisualStyleBackColor = true;
             // 
-            // radioButton7
+            // rbTV3
             // 
-            this.radioButton7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(312, 5);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(17, 16);
-            this.radioButton7.TabIndex = 77;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.rbTV3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbTV3.AutoSize = true;
+            this.rbTV3.Location = new System.Drawing.Point(310, 5);
+            this.rbTV3.Name = "rbTV3";
+            this.rbTV3.Size = new System.Drawing.Size(17, 16);
+            this.rbTV3.TabIndex = 77;
+            this.rbTV3.TabStop = true;
+            this.rbTV3.UseVisualStyleBackColor = true;
             // 
-            // radioButton8
+            // rbTV1
             // 
-            this.radioButton8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(56, 5);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(17, 16);
-            this.radioButton8.TabIndex = 75;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.UseVisualStyleBackColor = true;
+            this.rbTV1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbTV1.AutoSize = true;
+            this.rbTV1.Location = new System.Drawing.Point(55, 5);
+            this.rbTV1.Name = "rbTV1";
+            this.rbTV1.Size = new System.Drawing.Size(17, 16);
+            this.rbTV1.TabIndex = 75;
+            this.rbTV1.TabStop = true;
+            this.rbTV1.UseVisualStyleBackColor = true;
             // 
-            // radioButton9
+            // rbTV2
             // 
-            this.radioButton9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(184, 5);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(17, 16);
-            this.radioButton9.TabIndex = 76;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.rbTV2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbTV2.AutoSize = true;
+            this.rbTV2.Location = new System.Drawing.Point(182, 5);
+            this.rbTV2.Name = "rbTV2";
+            this.rbTV2.Size = new System.Drawing.Size(17, 16);
+            this.rbTV2.TabIndex = 76;
+            this.rbTV2.TabStop = true;
+            this.rbTV2.UseVisualStyleBackColor = true;
             // 
-            // radioButton10
+            // rbTV4
             // 
-            this.radioButton10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(440, 5);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(17, 16);
-            this.radioButton10.TabIndex = 78;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.UseVisualStyleBackColor = true;
+            this.rbTV4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbTV4.AutoSize = true;
+            this.rbTV4.Location = new System.Drawing.Point(438, 5);
+            this.rbTV4.Name = "rbTV4";
+            this.rbTV4.Size = new System.Drawing.Size(17, 16);
+            this.rbTV4.TabIndex = 78;
+            this.rbTV4.TabStop = true;
+            this.rbTV4.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel4
             // 
@@ -812,7 +819,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 128F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -873,11 +880,11 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Controls.Add(this.radioButton11, 4, 0);
-            this.tableLayoutPanel4.Controls.Add(this.radioButton12, 2, 0);
-            this.tableLayoutPanel4.Controls.Add(this.radioButton13, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.radioButton14, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.radioButton15, 3, 0);
+            this.tableLayoutPanel4.Controls.Add(this.rbEat5, 4, 0);
+            this.tableLayoutPanel4.Controls.Add(this.rbEat3, 2, 0);
+            this.tableLayoutPanel4.Controls.Add(this.rbEat1, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.rbEat2, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.rbEat4, 3, 0);
             this.tableLayoutPanel4.Location = new System.Drawing.Point(250, 604);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
@@ -889,60 +896,60 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(643, 27);
             this.tableLayoutPanel4.TabIndex = 76;
             // 
-            // radioButton11
+            // rbEat5
             // 
-            this.radioButton11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(568, 5);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(17, 16);
-            this.radioButton11.TabIndex = 79;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.UseVisualStyleBackColor = true;
+            this.rbEat5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbEat5.AutoSize = true;
+            this.rbEat5.Location = new System.Drawing.Point(567, 5);
+            this.rbEat5.Name = "rbEat5";
+            this.rbEat5.Size = new System.Drawing.Size(17, 16);
+            this.rbEat5.TabIndex = 79;
+            this.rbEat5.TabStop = true;
+            this.rbEat5.UseVisualStyleBackColor = true;
             // 
-            // radioButton12
+            // rbEat3
             // 
-            this.radioButton12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(312, 5);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(17, 16);
-            this.radioButton12.TabIndex = 77;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.UseVisualStyleBackColor = true;
+            this.rbEat3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbEat3.AutoSize = true;
+            this.rbEat3.Location = new System.Drawing.Point(310, 5);
+            this.rbEat3.Name = "rbEat3";
+            this.rbEat3.Size = new System.Drawing.Size(17, 16);
+            this.rbEat3.TabIndex = 77;
+            this.rbEat3.TabStop = true;
+            this.rbEat3.UseVisualStyleBackColor = true;
             // 
-            // radioButton13
+            // rbEat1
             // 
-            this.radioButton13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton13.AutoSize = true;
-            this.radioButton13.Location = new System.Drawing.Point(56, 5);
-            this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(17, 16);
-            this.radioButton13.TabIndex = 75;
-            this.radioButton13.TabStop = true;
-            this.radioButton13.UseVisualStyleBackColor = true;
+            this.rbEat1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbEat1.AutoSize = true;
+            this.rbEat1.Location = new System.Drawing.Point(55, 5);
+            this.rbEat1.Name = "rbEat1";
+            this.rbEat1.Size = new System.Drawing.Size(17, 16);
+            this.rbEat1.TabIndex = 75;
+            this.rbEat1.TabStop = true;
+            this.rbEat1.UseVisualStyleBackColor = true;
             // 
-            // radioButton14
+            // rbEat2
             // 
-            this.radioButton14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton14.AutoSize = true;
-            this.radioButton14.Location = new System.Drawing.Point(184, 5);
-            this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(17, 16);
-            this.radioButton14.TabIndex = 76;
-            this.radioButton14.TabStop = true;
-            this.radioButton14.UseVisualStyleBackColor = true;
+            this.rbEat2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbEat2.AutoSize = true;
+            this.rbEat2.Location = new System.Drawing.Point(182, 5);
+            this.rbEat2.Name = "rbEat2";
+            this.rbEat2.Size = new System.Drawing.Size(17, 16);
+            this.rbEat2.TabIndex = 76;
+            this.rbEat2.TabStop = true;
+            this.rbEat2.UseVisualStyleBackColor = true;
             // 
-            // radioButton15
+            // rbEat4
             // 
-            this.radioButton15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.radioButton15.AutoSize = true;
-            this.radioButton15.Location = new System.Drawing.Point(440, 5);
-            this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(17, 16);
-            this.radioButton15.TabIndex = 78;
-            this.radioButton15.TabStop = true;
-            this.radioButton15.UseVisualStyleBackColor = true;
+            this.rbEat4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rbEat4.AutoSize = true;
+            this.rbEat4.Location = new System.Drawing.Point(438, 5);
+            this.rbEat4.Name = "rbEat4";
+            this.rbEat4.Size = new System.Drawing.Size(17, 16);
+            this.rbEat4.TabIndex = 78;
+            this.rbEat4.TabStop = true;
+            this.rbEat4.UseVisualStyleBackColor = true;
             // 
             // lblFillOutSurvey
             // 
@@ -972,6 +979,7 @@
             this.lblViewSurveyResults.TabIndex = 79;
             this.lblViewSurveyResults.TabStop = true;
             this.lblViewSurveyResults.Text = "VIEW SURVEY RESULTS";
+            this.lblViewSurveyResults.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblViewSurveyResults_LinkClicked);
             // 
             // textBox4
             // 
@@ -1006,6 +1014,90 @@
             this.lblNullsExist.Text = "Please fill out all the fields";
             this.lblNullsExist.Visible = false;
             // 
+            // lblFullErr
+            // 
+            this.lblFullErr.AutoSize = true;
+            this.lblFullErr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFullErr.ForeColor = System.Drawing.Color.Red;
+            this.lblFullErr.Location = new System.Drawing.Point(588, 162);
+            this.lblFullErr.Name = "lblFullErr";
+            this.lblFullErr.Size = new System.Drawing.Size(20, 25);
+            this.lblFullErr.TabIndex = 83;
+            this.lblFullErr.Text = "*";
+            this.lblFullErr.Visible = false;
+            // 
+            // lblEmailErr
+            // 
+            this.lblEmailErr.AutoSize = true;
+            this.lblEmailErr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmailErr.ForeColor = System.Drawing.Color.Red;
+            this.lblEmailErr.Location = new System.Drawing.Point(591, 230);
+            this.lblEmailErr.Name = "lblEmailErr";
+            this.lblEmailErr.Size = new System.Drawing.Size(20, 25);
+            this.lblEmailErr.TabIndex = 84;
+            this.lblEmailErr.Text = "*";
+            this.lblEmailErr.Visible = false;
+            // 
+            // lblContactErr
+            // 
+            this.lblContactErr.AutoSize = true;
+            this.lblContactErr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContactErr.ForeColor = System.Drawing.Color.Red;
+            this.lblContactErr.Location = new System.Drawing.Point(594, 377);
+            this.lblContactErr.Name = "lblContactErr";
+            this.lblContactErr.Size = new System.Drawing.Size(20, 25);
+            this.lblContactErr.TabIndex = 85;
+            this.lblContactErr.Text = "*";
+            this.lblContactErr.Visible = false;
+            // 
+            // lblMovieErr
+            // 
+            this.lblMovieErr.AutoSize = true;
+            this.lblMovieErr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMovieErr.ForeColor = System.Drawing.Color.Red;
+            this.lblMovieErr.Location = new System.Drawing.Point(899, 563);
+            this.lblMovieErr.Name = "lblMovieErr";
+            this.lblMovieErr.Size = new System.Drawing.Size(20, 25);
+            this.lblMovieErr.TabIndex = 86;
+            this.lblMovieErr.Text = "*";
+            this.lblMovieErr.Visible = false;
+            // 
+            // lblRadioErr
+            // 
+            this.lblRadioErr.AutoSize = true;
+            this.lblRadioErr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRadioErr.ForeColor = System.Drawing.Color.Red;
+            this.lblRadioErr.Location = new System.Drawing.Point(899, 589);
+            this.lblRadioErr.Name = "lblRadioErr";
+            this.lblRadioErr.Size = new System.Drawing.Size(20, 25);
+            this.lblRadioErr.TabIndex = 87;
+            this.lblRadioErr.Text = "*";
+            this.lblRadioErr.Visible = false;
+            // 
+            // lblEatErr
+            // 
+            this.lblEatErr.AutoSize = true;
+            this.lblEatErr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEatErr.ForeColor = System.Drawing.Color.Red;
+            this.lblEatErr.Location = new System.Drawing.Point(899, 615);
+            this.lblEatErr.Name = "lblEatErr";
+            this.lblEatErr.Size = new System.Drawing.Size(20, 25);
+            this.lblEatErr.TabIndex = 88;
+            this.lblEatErr.Text = "*";
+            this.lblEatErr.Visible = false;
+            // 
+            // lblTVErr
+            // 
+            this.lblTVErr.AutoSize = true;
+            this.lblTVErr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTVErr.ForeColor = System.Drawing.Color.Red;
+            this.lblTVErr.Location = new System.Drawing.Point(899, 641);
+            this.lblTVErr.Name = "lblTVErr";
+            this.lblTVErr.Size = new System.Drawing.Size(20, 25);
+            this.lblTVErr.TabIndex = 89;
+            this.lblTVErr.Text = "*";
+            this.lblTVErr.Visible = false;
+            // 
             // frmSdaSurvey
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1013,6 +1105,13 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1062, 739);
+            this.Controls.Add(this.lblTVErr);
+            this.Controls.Add(this.lblEatErr);
+            this.Controls.Add(this.lblRadioErr);
+            this.Controls.Add(this.lblMovieErr);
+            this.Controls.Add(this.lblContactErr);
+            this.Controls.Add(this.lblEmailErr);
+            this.Controls.Add(this.lblFullErr);
             this.Controls.Add(this.lblNullsExist);
             this.Controls.Add(this.txtContact);
             this.Controls.Add(this.textBox4);
@@ -1039,9 +1138,9 @@
             this.Controls.Add(this.chkPasta);
             this.Controls.Add(this.chkPizza);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dtpDob);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtFull_Names);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -1075,9 +1174,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox txtFull_Names;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.DateTimePicker dtpDob;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.CheckBox chkPizza;
         private System.Windows.Forms.CheckBox chkPasta;
@@ -1095,35 +1194,42 @@
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.RadioButton radioButton25;
-        private System.Windows.Forms.RadioButton radioButton27;
-        private System.Windows.Forms.RadioButton radioButton28;
-        private System.Windows.Forms.RadioButton radioButton26;
-        private System.Windows.Forms.RadioButton radioButton23;
+        private System.Windows.Forms.RadioButton rbMovies4;
+        private System.Windows.Forms.RadioButton rbMovies2;
+        private System.Windows.Forms.RadioButton rbMovies1;
+        private System.Windows.Forms.RadioButton rbMovies3;
+        private System.Windows.Forms.RadioButton rbMovies5;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton rbRadio5;
+        private System.Windows.Forms.RadioButton rbRadio3;
+        private System.Windows.Forms.RadioButton rbRadio1;
+        private System.Windows.Forms.RadioButton rbRadio2;
+        private System.Windows.Forms.RadioButton rbRadio4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.RadioButton radioButton10;
+        private System.Windows.Forms.RadioButton rbTV5;
+        private System.Windows.Forms.RadioButton rbTV3;
+        private System.Windows.Forms.RadioButton rbTV1;
+        private System.Windows.Forms.RadioButton rbTV2;
+        private System.Windows.Forms.RadioButton rbTV4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.RadioButton radioButton11;
-        private System.Windows.Forms.RadioButton radioButton12;
-        private System.Windows.Forms.RadioButton radioButton13;
-        private System.Windows.Forms.RadioButton radioButton14;
-        private System.Windows.Forms.RadioButton radioButton15;
+        private System.Windows.Forms.RadioButton rbEat5;
+        private System.Windows.Forms.RadioButton rbEat3;
+        private System.Windows.Forms.RadioButton rbEat1;
+        private System.Windows.Forms.RadioButton rbEat2;
+        private System.Windows.Forms.RadioButton rbEat4;
         private System.Windows.Forms.LinkLabel lblFillOutSurvey;
         private System.Windows.Forms.LinkLabel lblViewSurveyResults;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox txtContact;
         private System.Windows.Forms.Label lblNullsExist;
+        private System.Windows.Forms.Label lblFullErr;
+        private System.Windows.Forms.Label lblEmailErr;
+        private System.Windows.Forms.Label lblContactErr;
+        private System.Windows.Forms.Label lblMovieErr;
+        private System.Windows.Forms.Label lblRadioErr;
+        private System.Windows.Forms.Label lblEatErr;
+        private System.Windows.Forms.Label lblTVErr;
     }
 }
 

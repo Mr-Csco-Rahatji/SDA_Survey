@@ -26,5 +26,17 @@ namespace SDA_Survey
         {
 
         }
+
+        private void lblFillOutSurvey_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Close();
+            frmSdaSurvey frm=new frmSdaSurvey();
+            frm.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }
