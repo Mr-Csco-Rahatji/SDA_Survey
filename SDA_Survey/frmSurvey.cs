@@ -29,18 +29,6 @@ namespace SDA_Survey
             List<User> users = new List<User>();
             Connection conn = new Connection();
             users = conn.getAllUsers();
-
-            Console.WriteLine("You have " + users.Count + " users sir");
-
-            for(int a=0;a<users.Count; a++)
-            {
-                Console.WriteLine("Name is " + users[a].full_names);
-                for(int b = 0; b < users[a].likes.Count; b++)
-                {
-                   // Console.WriteLine( "I like  " + users[a].likes[b].type +" by this much : "+ users[a].likes[b].rating);
-                }
-                Console.WriteLine("I am " + (DateTime.Now.Year - users[a].dob.Year));
-            }
         }
 
 
@@ -275,26 +263,6 @@ namespace SDA_Survey
         {
 
         }
-
-        /*
-        public void ShowUsers(User user)
-        {
-            Console.WriteLine("users name is "+user.full_names);
-            Console.WriteLine("email is "+user.email);
-            Console.WriteLine("dob is "+user.dob.ToShortDateString());
-            Console.WriteLine("contact is "+user.contact);
-            Console.WriteLine("Food list :");
-            for (int a = 0; a < user.foodList.Count; a++)
-            {
-                Console.WriteLine(user.foodList[a].type);         
-            }
-            Console.WriteLine("Rating :");
-            Console.WriteLine("Movies " + user.likes[0].rating);
-            Console.WriteLine("Radio " + user.likes[1].rating);
-            Console.WriteLine("Eat Out " + user.likes[2].rating);
-            Console.WriteLine("TV " + user.likes[3].rating);
-            
-        }*/
 
     }
 }
